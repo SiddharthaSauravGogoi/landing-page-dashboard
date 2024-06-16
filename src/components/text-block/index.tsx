@@ -39,7 +39,7 @@ const TextBlock: FC<Props> = ({ title, component }) => {
 
   const wrapperStyles = "flex justify-between p-4 w-full";
   const wrapper = cn(wrapperStyles, {
-    "mb-6 bg-gray-100": isEditable,
+    "mb-6 bg-gray-300": isEditable,
     "bg-blue-100": !isEditable,
   });
 

@@ -82,7 +82,7 @@ const ActionBar: FC<Props> = ({ title }) => {
 
   return (
     <>
-      <div className="flex flex-col w-full bg-gray-200 p-4 mb-6">
+      <div className="flex flex-col w-full bg-gray-300 p-4 mb-6">
         <div className="flex flex-col flex-wrap justify-between h-[64px] mb-4">
           <span>Title: {pageData?.title}</span>
           <span>Description: {pageData?.description}</span>
